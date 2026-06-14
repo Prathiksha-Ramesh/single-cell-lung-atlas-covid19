@@ -19,7 +19,7 @@ pip install -r requirements.txt
 2. stage all changes - git add . 
 3. create a commit - git commit -m "describe your commit"
 4. push to a main branch - git push origin main 
-
+5. To fetch the latest changes in the UI and to rebase it - git pull --rebase origin main 
 
 
 

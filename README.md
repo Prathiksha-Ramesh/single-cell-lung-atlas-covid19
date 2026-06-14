@@ -28,6 +28,14 @@ mkdir -p data/raw
 # to save the environement for reproducibility 
 conda env export > environment.yml
 
+# To move the files for example raw files 
+
+mv /Users/prathiksharamesh/Downloads/GSE171524_RAW data/raw/
+
+# To gunzip files 
+gunzip data/raw/GSE171524_RAW/*.gz
+
+
 
 
    

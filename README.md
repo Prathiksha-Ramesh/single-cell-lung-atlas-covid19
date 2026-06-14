@@ -25,6 +25,9 @@ pip install -r requirements.txt
 # To make directories 
 mkdir -p data/raw
 
+# to save the environement for reproducibility 
+conda env export > environment.yml
+
 
 
    

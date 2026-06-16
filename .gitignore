@@ -3,6 +3,19 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+<<<<<<< Updated upstream
+=======
+# Data (do not track large datasets)
+data/raw/*
+
+
+# Single-cell files
+*.h5ad
+*.h5
+*.loom
+
+
+>>>>>>> Stashed changes
 # C extensions
 *.so
 

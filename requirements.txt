@@ -1,3 +1,7 @@
 scanpy 
 pandas 
 leidenalg 
+scvi-tools 
+ipykernel 
+seaborn 
+

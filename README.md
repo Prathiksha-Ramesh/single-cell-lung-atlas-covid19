@@ -34,11 +34,11 @@ An end-to-end single-cell RNA-seq analysis pipeline that builds a lung cell atla
 
 This repository contains a complete scRNA-seq analysis workflow applied to lung tissue samples from COVID-19 and control donors. Raw count matrices are processed through doublet detection, quality control, normalization, dimensionality reduction, batch-aware integration, and cell type annotation, followed by downstream analyses comparing cell composition and gene expression between COVID-19 and control conditions.
 
-The pipeline is organized as a sequence of notebooks — each one covering a discrete stage — so individual steps can be run, inspected, or re-run independently.
+The pipeline is organized as a sequence of notebooks, each one covering a discrete stage. So individual steps can be run, inspected, or re-run independently.
 
 ## Background
 
-Lung tissue from COVID-19 patients shows substantial shifts in immune and epithelial cell populations compared to healthy controls. Capturing this at single-cell resolution requires careful handling of technical artifacts (doublets, ambient RNA, batch effects across samples) before any biological comparison is meaningful. This project applies a standard but rigorous scRNA-seq analysis pipeline — built on `scanpy` and `scVI` — to integrate multiple samples, annotate cell types by canonical markers, and quantify compositional and transcriptional differences associated with COVID-19.
+Lung tissue from COVID-19 patients shows substantial shifts in immune and epithelial cell populations compared to healthy controls. Capturing this at single-cell resolution requires careful handling of technical artifacts (doublets, ambient RNA, batch effects across samples) before any biological comparison is meaningful. This project applies a standard but rigorous scRNA-seq analysis pipeline built on `scanpy` and `scVI` to integrate multiple samples, annotate cell types by canonical markers, and quantify compositional and transcriptional differences associated with COVID-19.
 
 ## Pipeline Stages
 
@@ -81,7 +81,7 @@ Lung tissue from COVID-19 patients shows substantial shifts in immune and epithe
 git clone https://github.com/Prathiksha-Ramesh/single-cell-lung-atlas-covid19.git
 cd single-cell-lung-atlas-covid19
 
-# (Recommended) create a virtual environment
+# create a virtual environment
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
 
